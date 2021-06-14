@@ -107,10 +107,10 @@ body {
     }
 }
 
+.flip1 { animation: flip1 8s cubic-bezier(0.23, 1, 0.32, 1.2); }
 .flip2 { animation: flip2 8s cubic-bezier(0.23, 1, 0.32, 1.2); }
-.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2); }
 
-@keyframes flip2 {
+@keyframes flip1 {
     0% { margin-top: -180px; }
     5% { margin-top: -90px;  }
     50% { margin-top: -90px; }
@@ -119,7 +119,7 @@ body {
     100% { margin-top: -270px; }
 }
 
-@keyframes flip3 {
+@keyframes flip2 {
     0% { margin-top: -270px; }
     5% { margin-top: -180px; }
     33% { margin-top: -180px; }

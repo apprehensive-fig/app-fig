@@ -1,10 +1,18 @@
 // Define variables for your color scheme
 
 // For example:
-$red: #FD1015;
-$blue: #167FFB;
-$yellow: #FFC65A;
-$orange: #E67E22;
-$green: #1EDD88;
-$gray: #0E0000;
-$light-gray: #F4F4F4;
+$red: #c14747;
+$blue: #4b76cc;
+$yellow: #ead42a;
+$orange: #e89243;
+$green: #5e9671;
+$black: #2C2C2C;
+$gray: #BFBFBF;
+
+html {
+  background-color: $black;
+}
+
+h1 {
+  color: white;
+}

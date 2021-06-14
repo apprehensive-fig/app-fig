@@ -57,7 +57,7 @@ body {
 /* animations */
 @keyframes revealBlock {
   100% {
-    color: #F5F5F5;
+    color: #2C2C2C;
   }
 }
 
@@ -87,7 +87,7 @@ body {
 .wordCarousel {
     font-size: 36px;
     font-weight: 100;
-    color: #F5F5F5;
+    color: #2C2C2C;
     div {
         overflow: hidden;
         position: relative;
@@ -96,7 +96,7 @@ body {
         margin-top: -10px;
         li {
             font-family: Serif;
-            color: #F5F5F5;
+            color: #2C2C2C;
             font-weight: 700;
             text-align: center;
             padding: 0 10px;
@@ -107,7 +107,7 @@ body {
     }
 }
 
-.flip1 { animation: flip1 8s cubic-bezier(0.23, 1, 0.32, 1.2); }
+.flip1 { animation: flip1 6s cubic-bezier(0.23, 1, 0.32, 1.2); }
 .flip2 { animation: flip2 8s cubic-bezier(0.23, 1, 0.32, 1.2); }
 
 @keyframes flip1 {

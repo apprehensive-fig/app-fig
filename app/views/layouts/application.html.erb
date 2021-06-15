@@ -4,13 +4,14 @@
     <title>appfig</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= favicon_link_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+    <%= favicon_link_tag %>
+    <link rel="favicon.ico" sizes="57x57" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
   </head>
-
   <body>
     <%= yield %>
   </body>

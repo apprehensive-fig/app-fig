@@ -19,27 +19,23 @@
 }
 
 @media only screen and (max-width: 576px) {
-  #first-arrow {
-    bottom: 70px;
-  }
-
   #section01 img {
-    max-height: 100px;
+    max-height: 150px;
     width: auto;
     overflow: auto;
   }
 
   #section02 img {
-    max-width: 100px;
+    max-width: 150px;
   }
 
   .info {
-    max-width: 200px;
+    max-width: 150px;
   }
 
-  .card-project img {
-    max-width: 300px;
-    height: auto;
+  .images {
+    display: flex;
+    flex-direction: column;
   }
 
   .second-banner {

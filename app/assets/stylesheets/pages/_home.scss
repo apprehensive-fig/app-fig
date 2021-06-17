@@ -1,26 +1,31 @@
+#directory {
+  gap: 5px;
+}
+
 .first-page {
   width: 100%;
   min-height: 100vh;
   overflow: auto;
+  gap: 400px;
+}
+
+.second-page, .third-page, .fourth-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.fourth-page {
   position: relative;
 }
 
-.second-page {
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
-}
-
-.third-page {
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
+.up-arrow {
+  position: absolute;
+  right: 50%;
+  bottom: 0;
 }
 
 .social-media {
-  width: 100%;
   display: flex;
-  justify-content: flex-end;
   gap: 5px;
 }
 
@@ -28,22 +33,6 @@
   max-width: 400px;
   overflow: wrap;
   align-content: center;
-}
-
-#first-arrow {
-  position: absolute;
-  bottom: 50px;
-}
-
-#second-arrow {
-  position: absolute;
-  left: 50%;
-}
-
-#third-arrow {
-  position: absolute;
-  left: 50%;
-  bottom: 30px;
 }
 
 #section01 img {
@@ -62,10 +51,20 @@
 
 .fab {
   font-size: 24px;
+  color: #2C2C2C;
+}
+
+.fab:hover {
+  color: #ccc;
 }
 
 .fa-vector-square {
   font-size: 20px;
+  color: #2C2C2C;
+}
+
+.fa-vector-square:hover {
+  color: #ccc;
 }
 
 a {
@@ -75,5 +74,5 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #2F2F2F;
+  color: inherit;
 }

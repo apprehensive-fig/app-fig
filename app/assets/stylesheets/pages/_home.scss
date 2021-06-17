@@ -44,18 +44,29 @@
   align-content: center;
 }
 
-#section01 img {
+.images-1 img {
   max-width: 150px;
+  margin: 5px;
   height: auto;
+  box-shadow: 0 0px 16px rgba(0,0,0,0.1);
 }
 
-.project img {
-  max-width: 150px;
-}
-
-.images img {
+.images-2 img {
   max-width: 300px;
+  box-shadow: 0 0px 16px rgba(0,0,0,0.1);
   height: auto;
+  margin: 5px;
+}
+
+.images-3 img {
+  max-width: 300px;
+  box-shadow: 0 0px 16px rgba(0,0,0,0.1);
+  height: auto;
+  margin: 5px;
+}
+
+.logo img {
+  max-width: 200px;
 }
 
 .fab {

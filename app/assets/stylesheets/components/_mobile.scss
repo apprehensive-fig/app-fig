@@ -24,6 +24,7 @@
     justify-content: center;
     gap: 170px !important;
 
+
     h1 {
       font-size: 50px;
     }
@@ -49,6 +50,10 @@
     p {
       margin-top: 9px;
     }
+  }
+
+  .wordCarousel div li {
+    font-size: 24px;
   }
 
   #section01 img {

@@ -53,21 +53,25 @@
     overflow: auto;
   }
 
-  .info {
-    max-width: 150px;
-  }
-
   .images {
     display: flex;
     flex-direction: column;
   }
 
-  .second-banner {
-    height: 40px;
-  }
-
   .btn {
     font-size: 12px;
     padding: 6px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+    .first-page {
+    flex-direction: column;
+    justify-content: center;
+    gap: 170px !important;
+
+    h1 {
+      font-size: 50px;
+    }
   }
 }

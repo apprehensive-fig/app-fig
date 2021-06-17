@@ -50,6 +50,10 @@
   align-content: center;
 }
 
+.text {
+  min-width: 300px;
+}
+
 .images-1 img {
   max-width: 150px;
   margin: 5px;
@@ -72,13 +76,13 @@
 }
 
 .images-4 img {
-  max-width: 250px;
+  max-width: 260px;
   border: 15px solid white;
   box-shadow: 16px 0 16px -16px rgba(0,0,0,0.1);
 }
 
 .intro {
-  max-width: 250px;
+  max-width: 260px;
   margin-top: -1px;
   box-shadow: 16px -16 16px 0px rgba(0,0,0,0.1);
 }

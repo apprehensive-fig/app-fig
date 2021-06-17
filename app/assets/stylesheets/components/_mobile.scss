@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     gap: 170px !important;
-    background-size: 70px !important;
+    background-size: 50px !important;
   }
 
   .social-media {
@@ -67,11 +67,15 @@
     justify-content: center;
     align-items: center;
     gap: 170px !important;
-    background-size: 70px !important;
+    background-size: 50px !important;
   }
 
   .social-media {
     flex-direction: row !important;
+  }
+
+  .wordCarousel div li {
+    font-size: 20px;
   }
 
   #directory {

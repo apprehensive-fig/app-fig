@@ -20,12 +20,12 @@
 
 @media only screen and (max-width: 1100px) {
   .first-page {
-    gap: 100px !important;
+    gap: 60px !important;
   }
 }
 
-@media only screen and (max-width: 700px) {
-  .first-page {
+@media only screen and (max-width: 770px) {
+  .first-page, .container {
     flex-direction: column;
     justify-content: center;
     gap: 170px !important;
@@ -59,7 +59,7 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .first-page {
+  .first-page, .container {
     flex-direction: column;
     justify-content: center;
     gap: 170px !important;

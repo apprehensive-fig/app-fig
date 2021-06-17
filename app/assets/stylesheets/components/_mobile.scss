@@ -66,12 +66,13 @@
   .first-page {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: space-around;
     gap: 170px !important;
   }
 
   .social-media {
     flex-direction: row !important;
+    gap: 2px;
   }
 
   .wordCarousel div li {

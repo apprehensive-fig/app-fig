@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     gap: 170px !important;
-    background-size: 50px;
+    background-size: 100px !important;
   }
 
   .social-media {
@@ -67,6 +67,7 @@
     justify-content: center;
     align-items: center;
     gap: 170px !important;
+    background-size: 125px !important;
   }
 
   .social-media {
@@ -75,6 +76,12 @@
 
   #directory {
     flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      margin-top: 9px;
+    }
   }
 
   #section01 img {

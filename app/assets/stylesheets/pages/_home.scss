@@ -2,6 +2,11 @@
   gap: 5px;
 }
 
+.btn:hover {
+  background-color: #2C2C2C;
+  color: white;
+}
+
 .first-page {
   width: 100%;
   min-height: 100vh;
@@ -30,7 +35,8 @@
 .social-media {
   display: flex;
   gap: 5px;
-  margin-top: 30px;
+  background-color: white;
+  padding: 5px;
 }
 
 .info {

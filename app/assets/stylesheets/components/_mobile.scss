@@ -22,7 +22,6 @@
   .first-page {
     flex-direction: column;
     justify-content: center;
-    align-items: space-around;
     gap: 170px !important;
   }
 
@@ -66,13 +65,13 @@
   .first-page {
     flex-direction: column;
     justify-content: center;
-    align-items: space-around;
     gap: 170px !important;
   }
 
   .social-media {
     flex-direction: row !important;
     gap: 2px;
+    margin-top: 40px;
   }
 
   .wordCarousel div li {
@@ -83,6 +82,7 @@
     flex-direction: row !important;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 
     p {
       margin-top: 9px;

@@ -17,13 +17,24 @@
   background-size: 70px;
 }
 
-.second-page, .third-page, .fourth-page {
+.second-page, .third-page, .fourth-page, .fifth-page {
   width: 100%;
   min-height: 100vh;
 }
 
 .fourth-page {
   position: relative;
+}
+
+.fifth-page {
+  max-width: 400px;
+}
+
+.container {
+  background-image: url("https://res.cloudinary.com/dzwpbkn3u/image/upload/v1621747327/homeless-chic_n3ntvs.png");
+  background-repeat: round;
+  background-size: 70px;
+  padding: 20px;
 }
 
 .up-arrow {
@@ -66,8 +77,12 @@
 }
 
 .images-4 img {
-  max-width: 300px;
-  filter: brightness(80%);
+  max-width: 275px;
+  filter: brightness(90%);
+}
+
+.intro {
+  box-shadow: 0 0px 16px rgba(0,0,0,0.1);
 }
 
 .logo img {
@@ -76,6 +91,10 @@
 
 #section04 p {
   line-height: 0px;
+}
+
+#section04 h2 {
+  color: #2C2C2C;
 }
 
 .fab {
@@ -94,6 +113,10 @@
 
 .fa-vector-square:hover {
   color: #ccc;
+}
+
+.fas {
+  color: #2C2C2C
 }
 
 a {

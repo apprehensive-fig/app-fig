@@ -72,12 +72,14 @@
 }
 
 .images-4 img {
-  max-width: 275px;
+  max-width: 250px;
+  border: 15px solid white;
   box-shadow: 0 0px 16px rgba(0,0,0,0.1);
 }
 
 .intro {
-  box-shadow: 0 0px 16px rgba(0,0,0,0.1);
+  max-width: 250px;
+  margin-top: -1px;
 }
 
 .logo img {
@@ -96,7 +98,7 @@
   line-height: 0px;
 }
 
-#section04 h2 {
+#section04 h5 {
   color: #2C2C2C;
 }
 

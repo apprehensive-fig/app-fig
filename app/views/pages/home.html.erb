@@ -26,69 +26,7 @@
     </div>
   </div>
 </div>
-<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-    <section id="section01">
-      <div class="first-banner" style="height: 50px;"></div>
-      <div class="second-page d-flex flex-column justify-content-center align-items-center">
-        <div class="project d-flex flex-column justify-content-center align-items-center text-center">
-          <div class="logo mb-5">
-          <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1623041320/logo-3_w2thb5.png", alt: "logo" %>
-          </div>
-          <div class="images-1">
-            <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1623745165/Screen_Shot_2021-06-15_at_13.45.15_uqdrvh.png", alt: "home" %>
-            <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1623745835/Screen_Shot_2021-06-15_at_13.46.59_dwphvj.png", alt: "profile" %>
-            <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1623745165/Screen_Shot_2021-06-15_at_13.46.29_aihxgx.png", alt: "chat" %>
-          </div>
-          <div class="info text-center">
-            <p></br>ConnecPet is a social networking service platform for pet-owers to discover other pet-owners in the area to make friends,
-            hold or join events, and/or find pet-sitters nearby.</p>
-            <p style ="color: #eabb00"><a href="https://connecpet.org">Go to Project</a></p>
-           </div>
-          </div>
-         </div>
-       </div>
-    </div>
-  </section>
-  <a href="#first-page"><span></span><i class="fas fa-sort-up fa-2x" id="up-arrow"></i></a>
-</div>
-<div class="second-banner" style="height: 50px;"></div>
-<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-  <section id="section02">
-    <div class="third-page d-flex flex-column justify-content-center align-items-center">
-      <div class="project d-flex flex-column justify-content-center align-items-center text-center">
-        <div class="logo mb-5">
-          <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1623907370/Screen_Shot_2021-06-17_at_14.20.58_1_dewxru.png", alt: "logo" %>
-        </div>
-        <div class="images-2">
-          <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1623908674/Screen_Shot_2021-06-17_at_14.28.31_gpor4j.png", alt: "lists" %>
-          <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1623908674/Screen_Shot_2021-06-17_at_14.30.10_vflcmn.png", alt: "bookmarks" %>
-        </div>
-          <p></br>Top Picks is a website where you can create customized lists of your favorite movies</p>
-          <p style ="color: #eabb00"><a href="https://prankt.herokuapp.com">Go to Project</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <a href="#first-page"><span></span><i class="fas fa-sort-up fa-2x" id="up-arrow"></i></a>
-</div>
-<div class="second-banner" style="height: 50px;"></div>
-<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-  <section id="section03">
-    <div class="fourth-page d-flex flex-column justify-content-around align-items-center">
-      <div class="project d-flex flex-column justify-content-center align-items-center text-center">
-        <div class="logo mb-5">
-          <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1621996542/logo_hp9w9n.png", alt: "logo" %>
-        </div>
-        <div class="images-3">
-          <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1623746716/Screen_Shot_2021-06-15_at_17.43.44_uwjdc0.png", alt: "home" %>
-          <%= image_tag "https://res.cloudinary.com/dzwpbkn3u/image/upload/v1623746716/Screen_Shot_2021-06-15_at_17.44.38_sakgb8.png", alt: "index" %>
-        </div>
-           <p></br>Prankt is a Marketplace application to book pranking services</p>
-          <p style ="color: #eabb00"><a href="https://prankt.herokuapp.com">Go to Project</a></p>
-        </div>
-        <a href="#first-page"><span></span><i class="fas fa-sort-up fa-2x" id="up-arrow"></i></a>
-    </div>
-  </section>
-</div>
-
-
+<%= render "pages/section_one" %>
+<%= render "pages/section_two" %>
+<%= render "pages/section_three" %>
+<%= render "pages/section_four" %>

@@ -65,8 +65,17 @@
   margin: 5px;
 }
 
+.images-4 img {
+  max-width: 300px;
+  filter: brightness(80%);
+}
+
 .logo img {
   max-width: 200px;
+}
+
+#section04 p {
+  line-height: 0px;
 }
 
 .fab {

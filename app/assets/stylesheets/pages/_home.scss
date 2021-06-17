@@ -74,12 +74,13 @@
 .images-4 img {
   max-width: 250px;
   border: 15px solid white;
-  box-shadow: 0 0px 16px rgba(0,0,0,0.1);
+  box-shadow: 16px 0 16px -16px rgba(0,0,0,0.1);
 }
 
 .intro {
   max-width: 250px;
   margin-top: -1px;
+  box-shadow: 16px -16 16px 0px rgba(0,0,0,0.1);
 }
 
 .logo img {

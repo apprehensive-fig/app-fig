@@ -22,7 +22,7 @@
   .first-page {
     flex-direction: column;
     justify-content: center;
-    align-items: space-between;
+    align-items: space-around;
     gap: 170px !important;
   }
 
@@ -30,6 +30,7 @@
     flex-direction: row !important;
     justify-content: center;
     align-items: center;
+    gap: 2px;
   }
 
   #directory {

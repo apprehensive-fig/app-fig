@@ -24,11 +24,13 @@
     justify-content: center;
     align-items: center;
     gap: 170px !important;
-    background-size: 70px;
+    background-size: 50px;
   }
 
   .social-media {
     flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
   }
 
   #directory {

@@ -126,6 +126,10 @@
     flex-direction: column;
   }
 
+  .images-3 img {
+    max-width: 300px !important;
+  }
+
   .btn {
     font-size: 12px;
     padding: 6px;

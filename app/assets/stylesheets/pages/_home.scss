@@ -10,13 +10,9 @@
   gap: 260px;
 }
 
-.second-page, .third-page, .fourth-page, .fifth-page {
+.second-page, .third-page, .fourth-page, .fifth-page, .sixth-page {
   width: 100%;
   min-height: 100vh;
-}
-
-.fourth-page {
-  position: relative;
 }
 
 .container {
@@ -26,11 +22,11 @@
   margin: 0;
 }
 
-.up-arrow {
-  position: absolute;
-  right: 50%;
-  bottom: 0;
-}
+// #up-arrow {
+//   position: absolute;
+//   right: 50%;
+//   bottom: 0;
+// }
 
 .social-media {
   display: flex;
@@ -92,11 +88,11 @@
   max-width: 150px;
 }
 
-#section04 p {
+#section05 p {
   line-height: 0px;
 }
 
-#section04 h5 {
+#section05 h5 {
   color: #2C2C2C;
 }
 

@@ -115,6 +115,20 @@
     overflow: auto;
   }
 
+  #section04 {
+    p {
+      margin: 2px !important;
+    }
+
+    img {
+      max-height: 150px;
+      width: auto;
+      overflow: auto;
+    }
+  }
+
+
+
   .images {
     display: flex;
     flex-direction: column;

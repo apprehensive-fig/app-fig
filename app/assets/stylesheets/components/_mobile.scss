@@ -127,8 +127,6 @@
     }
   }
 
-
-
   .images {
     display: flex;
     flex-direction: column;
@@ -138,18 +136,14 @@
     max-width: 300px !important;
   }
 
+  .images-2 img {
+    max-width: 300px !important;
+  }
+
   .btn {
-    font-size: 12px;
-    padding: 4px;
+    font-size: 16px;
+    padding: 5px;
     margin: 3px;
     white-space: nowrap;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .btn {
-    padding: 2px !important;
-    margin: 1px;
-    font-size: 9px;
   }
 }

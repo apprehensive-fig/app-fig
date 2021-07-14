@@ -35,6 +35,10 @@
     }
   }
 
+  .collapse {
+    flex-direction: column !important;
+  }
+
   .text {
     min-width: 300px !important;
   }
@@ -47,6 +51,9 @@
     font-size: 9px;
   }
 
+  .btn {
+    padding: 4px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -62,10 +69,6 @@
 
   .text {
     min-width: 300px !important;
-  }
-
-  .navbar-nav {
-    flex-direction: column !important;
   }
 
   #first {
@@ -109,12 +112,5 @@
 
   .images-2 img {
     max-width: 300px !important;
-  }
-
-  .btn {
-    font-size: 16px;
-    padding: 5px;
-    margin: 3px;
-    white-space: nowrap;
   }
 }

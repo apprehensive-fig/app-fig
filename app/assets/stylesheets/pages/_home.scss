@@ -8,6 +8,10 @@
   min-height: 80vh;
   overflow: auto;
   gap: 260px;
+
+  img {
+    width: 400px;
+  }
 }
 
 .second-page, .third-page, .fourth-page, .fifth-page, .sixth-page {
@@ -15,12 +19,11 @@
   min-height: 100vh;
 }
 
-.container {
+.container {;
   width: 80%;
   background-image: url("https://res.cloudinary.com/dzwpbkn3u/image/upload/v1621747327/homeless-chic_n3ntvs.png");
   background-repeat: round;
   background-size: 70px;
-  margin: 0;
 }
 
 // #up-arrow {
